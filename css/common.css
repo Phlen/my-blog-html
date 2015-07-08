@@ -1,16 +1,30 @@
-body{font-size:12px;background:#E8DFD8 url(../images/top.jpg)  50% top scroll no-repeat;color:#5d5d5d; }
+body {
+  font-size: 12px;
+  background: #E8DFD8 url(../images/top.jpg) 50% top scroll no-repeat;
+  color: #5d5d5d;
+}
 
-a:hover{left: 20px;}
-.header{
+a:hover {
+  left: 20px;
+}
+
+.header {
   width: 1000px;
   padding: 40px 0;
   margin: auto;
   line-height: 2;
 }
-.h1{font-size: 22px;}
-.h2{font-size: 14px;font-weight: bold;}
 
-.header h1 a{
+.h1 {
+  font-size: 22px;
+}
+
+.h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header h1 a {
   text-decoration: none;
   font-size: 22px;
   color: #000000;
@@ -19,18 +33,20 @@ a:hover{left: 20px;}
   position: relative;
 }
 
-.header .word{
+.header .word {
   text-decoration: none;
   color: #5d5d5d;
   margin-left: 2em;
   position: relative;
 }
-.nav-swf{
+
+.nav-swf {
   width: 1000px;
   position: relative;
   margin: auto;
 }
-.nav{
+
+.nav {
   display: block;
   width: 1000px;
   height: 40px;
@@ -48,18 +64,20 @@ a:hover{left: 20px;}
   float: left;
 }
 
-.nav ul li a{
+.nav ul li a {
   left: 0px;
   display: block;
   text-decoration: none;
   color: #fff;
   position: relative;
 }
-.nav li a:hover{
+
+.nav li a:hover {
   font-weight: bold;
   font-size: 14px;
 }
-.container{
+
+.container {
   width: 1030px;
   min-height: 300px;
   margin: 0 auto;
@@ -67,21 +85,22 @@ a:hover{left: 20px;}
   overflow: hidden;
 }
 
-.main{
+.main {
   width: 745px;
   float: left;
 }
 
-.sidebar{
+.sidebar {
   width: 276px;
   float: right;
   overflow: hidden;
 }
 
-.sidebar .frame{
+.sidebar .frame {
   margin-bottom: 60px;
 }
-.sidebar h2{
+
+.sidebar h2 {
   color: #fff;
   font-family: "微软雅黑";
   width: 100%;
@@ -89,7 +108,7 @@ a:hover{left: 20px;}
   border-bottom: 1px solid #FFFFFF;
 }
 
-.sidebar h2 p{
+.sidebar h2 p {
   width: 180px;
   height: 24px;
   margin: 15px 0 0 40px;
@@ -98,66 +117,78 @@ a:hover{left: 20px;}
   text-align: center;
 }
 
-.sidebar figure{
+.sidebar figure {
   margin-left: 0px;
 }
 
-.personal-file{
+.personal-file {
   line-height: 2;
   margin-left: 40px;
 }
 
-.personal-file a{
+.personal-file a {
   color: #099;
 }
 
-.frame .list{
+.frame .list {
   margin: 20px 0 0 40px;
   list-style: none;
   line-height: 2;
 }
 
-.frame .list li{
+.frame .list li {
   background: url("../images/list.gif") left no-repeat;
 }
 
-.frame .list li>ul{
+.frame .list li > ul {
   display: none;
 }
+
 /*.frame .more li{
   background: none;
 }*/
-.more>li{
+.more > li {
   width: 100px;
 }
-.more li>ul>li{width: 200px;}
-.more li>a:hover{left: 0px;}
-.more li>ul>li>a:hover{left: 20px}
-.more li>ul li{
+
+.more li > ul > li {
+  width: 200px;
+}
+
+.more li > a:hover {
+  left: 0px;
+}
+
+.more li > ul > li > a:hover {
+  left: 20px
+}
+
+.more li > ul li {
   margin-left: 15px;
   padding-left: 10px;
   background: url("../images/list.gif") left no-repeat;
 }
-.more i{
+
+.more i {
   color: red;
   cursor: pointer;
 }
 
-.list li a{
+.list li a {
   text-decoration: none;
   color: #5d5d5d;
   position: relative;
   padding-left: 20px;
 }
-.more li a{
+
+.more li a {
   text-decoration: none;
   color: #5d5d5d;
   position: relative;
   padding-left: 5px;
 }
 
-
-.footer{
+.footer {
   line-height: 40px;
   margin-top: 15px;
   height: 40px;

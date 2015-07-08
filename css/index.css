@@ -1,51 +1,61 @@
-.article-list{
+.article-list {
   width: 99%;
   margin: 20px 5px 20px 5px;
   overflow: hidden;
   background-color: #F2EDEA;
   border-radius: 15px;
 }
-.article-list h2{
+
+.article-list h2 {
   background: url(../images/blogbgs.png) no-repeat right;
-  line-height:29px;
-  height:29px;
-  font-size:14px;
-  color:#3b3b3b;
-  padding:20px 0 15px 20px;
+  line-height: 29px;
+  height: 29px;
+  font-size: 14px;
+  color: #3b3b3b;
+  padding: 20px 0 15px 20px;
 }
-.article-list h2 a{
+
+.article-list h2 a {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
   color: #5d5d5d;
   position: relative;
 }
-.article-list h3{
+
+.article-list h3 {
   text-align: center;
   font-weight: bold;
 }
-.article-list p{
+
+.article-list p {
   text-indent: 2em;
   line-height: 2;
   padding: 5px 0 15px 20px;
 }
 
-.article-list figure{
+.article-list figure {
   text-align: center;
 }
 
-.article-list .message{
-  border:#ccc 1px dashed;
-  line-height:24px;
-  height:24px;
-  color:#666;
-  margin:10px;
+.article-list .message {
+  border: #ccc 1px dashed;
+  line-height: 24px;
+  height: 24px;
+  color: #666;
+  margin: 10px;
   padding: 0px;
 }
 
-.message a{
+.message a {
   text-decoration: none;
   color: #838383;
 }
-.message a:hover{ color:#333;}
-.message span{ margin:0 10px}
+
+.message a:hover {
+  color: #333;
+}
+
+.message span {
+  margin: 0 10px
+}
